@@ -15,9 +15,6 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_IDS = list(map(int, os.getenv("ADMIN_IDS", "").split(",")))
 DEFAULT_COMMANDS = (
     ("start", "Запустить бота"),
-    ("menu", "Меню"),
-    ("summary", "Последний конспект"),
-    ("list", "Список конспектов")
 )
 
 DATE_FORMAT = "%d.%m.%Y"
